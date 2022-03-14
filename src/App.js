@@ -32,7 +32,7 @@ function App() {
           <h2>Nexels</h2>
           <h3 className="git-hub">
             <FontAwesomeIcon icon={faGithub} />
-            <a href="#" target="_blank">
+            <a href="https://github.com/TheHypnotic/react-gallery.git" target="_blank">
               Source Code
             </a>
           </h3>
