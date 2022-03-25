@@ -1,0 +1,44 @@
+@import "variables";
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-Hubballi;
+  background-color: rgba(101, 39, 182, 0.247);
+}
+
+.container {
+  max-width: 1170px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: $text-main-color;
+}
+/* loading */
+.loading {
+  display: flex;
+  height: 78vh;
+  margin: auto;
+  font-size: 6rem;
+  justify-content: center;
+  align-items: center;
+  color: $bg-color;
+}
+/* not found */
+.not-found {
+  display: flex;
+  flex-direction: column;
+  height: 78vh;
+  margin: auto;
+  font-size: 3rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: $bg-color;
+}

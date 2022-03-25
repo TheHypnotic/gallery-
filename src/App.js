@@ -32,7 +32,14 @@ function App() {
           <h2>Nexels</h2>
           <h3 className="git-hub">
             <FontAwesomeIcon icon={faGithub} />
+<<<<<<< HEAD
             <a href="https://github.com/TheHypnotic/react-gallery.git" target="_blank">
+=======
+            <a
+              href="https://github.com/TheHypnotic/react-gallery.git"
+              target="_blank"
+            >
+>>>>>>> d4f8314 (scss and readme added)
               Source Code
             </a>
           </h3>
