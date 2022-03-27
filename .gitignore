@@ -11,7 +11,7 @@
 # production
 /build
 /node_modules
-/src/index.css
+
 # misc
 .DS_Store
 .env.local
@@ -22,3 +22,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# css
+/src/style/index.css
