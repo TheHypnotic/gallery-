@@ -7,7 +7,7 @@
 
 body {
   font-family: $font-Hubballi;
-  background-color: rgba(101, 39, 182, 0.247);
+  background-color: $bg-body;
 }
 
 .container {
@@ -28,7 +28,13 @@ a {
   font-size: 6rem;
   justify-content: center;
   align-items: center;
-  color: $bg-color;
+  color: $text-main-color;
+  text-align: center;
+  flex-direction: column;
+}
+.warning-text {
+  font-size: 1.5rem;
+  padding-top: 0.7rem;
 }
 /* not found */
 .not-found {
@@ -40,5 +46,5 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: $bg-color;
+  color: $text-main-color;
 }

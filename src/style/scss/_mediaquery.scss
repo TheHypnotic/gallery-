@@ -46,7 +46,8 @@
   .single-img {
     max-width: 70vw;
   }
-  .loading {
+  .loading,
+  .warning-text {
     font-size: 1rem;
   }
   .not-found {
@@ -75,5 +76,17 @@
   }
   .single-img-sec {
     min-height: 70vh;
+  }
+  .footer .container {
+    flex-direction: column;
+    padding-bottom: 0.5;
+  }
+  .footer-item {
+    padding-bottom: 1rem;
+  }
+}
+@media (max-width: 260px) {
+  .search-input {
+    width: 8rem !important;
   }
 }

@@ -29,8 +29,8 @@ function App() {
       </div>
       <div className="footer">
         <div className="container">
-          <h2>Nexels</h2>
-          <h3 className="git-hub">
+          <h2 className="footer-item">Nexels</h2>
+          <h3 className="git-hub footer-item">
             <FontAwesomeIcon icon={faGithub} />
             <a
               href="https://github.com/TheHypnotic/react-gallery.git"
@@ -39,7 +39,7 @@ function App() {
               Source Code
             </a>
           </h3>
-          <p>Created in 2022</p>
+          <p className="footer-item">Created in 2022</p>
         </div>
       </div>
     </>
